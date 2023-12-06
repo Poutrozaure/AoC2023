@@ -9,6 +9,7 @@ red_max = 12
 green_max = 13
 blue_max=14
 result = 0
+power=0
 
 for input in inputs:
     #print(input)
@@ -45,11 +46,16 @@ for input in inputs:
                 value = int(throw[index-3:index-1])
                 if value>blue_show:
                     blue_show = value
-    
+        
     
     print(red_show,green_show,blue_show)
     
+    ###part1 algo
     if(red_show<=red_max and green_show<= green_max and blue_show <= blue_max):
         result +=game_trial
+    
+    ###part2 algo
+    power += (red_show*green_show*blue_show)
+
         
-print(result)
+print(power)
