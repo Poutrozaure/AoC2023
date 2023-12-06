@@ -1,7 +1,7 @@
 
 # Online Python - IDE, Editor, Compiler, Interpreter
 
-with open('texte.txt') as f:
+with open('dataset.txt') as f:
     inputs = f.readlines()
     
 numbers = ["one","two","three","four","five","six","seven","eight","nine"]
