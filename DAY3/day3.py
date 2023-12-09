@@ -1,9 +1,7 @@
 
-with open('dataset.txt') as f:
+with open('c:/AoC2023/DAY3/dataset.txt') as f:
     inputs=f.readlines()
     
-
-
 coord_symb = []
 ##find the items coordinates
 for x,my_input in enumerate(inputs):
@@ -15,8 +13,7 @@ for x,my_input in enumerate(inputs):
 for coord in coord_symb:
     x = coord[0]
     y = coord[1]
-
-    if x>0:
     
-    if x<len()  
+    print(x,y)
+
 print(coord_symb)
