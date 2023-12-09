@@ -14,6 +14,7 @@ for coord in coord_symb:
     x = coord[0]
     y = coord[1]
     
-    print(x,y)
+    #print(x,y)
+    print("1")
 
 print(coord_symb)
